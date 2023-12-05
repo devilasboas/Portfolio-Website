@@ -181,6 +181,22 @@ img {
   transition: color .4s;
 }
 
+.nav__toggle,
+.nav__close{
+  display: inline-flex;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.nav__toggle{
+  color: var(--white-color);
+  transition: color .4s;
+}
+
+.nav__close{
+  color: var(--title-color);
+}
+
 /* Navigation for mobile devices */
 
 
