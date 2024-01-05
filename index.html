@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -307,9 +307,9 @@
             </h2>
 
             <div class="testimonial__container container">
-                <div class="testimonial__swiper">
-                    <div>
-                        <article class="testimonial__card">
+                <div class="testimonial__swiper swiper">
+                    <div class="swiper_wrapper">
+                        <article class="testimonial__card swiper-slide">
                             <div class="testimonial__border">
                                 <img src="assets/img/testimonial-1.png" alt="image" class="testimonial__img">
                             </div>
@@ -322,7 +322,7 @@
                             </p>
                         </article>
 
-                        <article class="testimonial__card">
+                        <article class="testimonial__card swiper-slide">
                             <div class="testimonial__border">
                                 <img src="assets/img/testimonial-2.png" alt="image" class="testimonial__img">
                             </div>
@@ -335,7 +335,7 @@
                             </p>
                         </article>
 
-                        <article class="testimonial__card">
+                        <article class="testimonial__card swiper-slide">
                             <div class="testimonial__border">
                                 <img src="assets/img/testimonial-3.png" alt="image" class="testimonial__img">
                             </div>
@@ -348,7 +348,7 @@
                             </p>
                         </article>
 
-                        <article class="testimonial__card">
+                        <article class="testimonial__card swiper-slide">
                             <div class="testimonial__border">
                                 <img src="assets/img/testimonial-4.png" alt="image" class="testimonial__img">
                             </div>
@@ -362,6 +362,10 @@
                         </article>
                     </div>
                 </div>
+
+                <!-- pagination -->
+                <div class="swiper-pagination"></div>
+
             </div>
         </section>
 
@@ -383,7 +387,7 @@
     <script src="assets/js/main.js"></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== INDEX JS ===============-->
     <script src="assets/js/index.js"></script>
