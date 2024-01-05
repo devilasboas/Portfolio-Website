@@ -1,7 +1,7 @@
 /*=============== SERVICES MODAL ===============*/
 const modal = document.querySelectorAll('.services__modal'),
       modalButton = document.querySelectorAll('.services__button'),
-      modalClose = document.querySelectorAll('services__modal-close')
+      modalClose = document.querySelectorAll('.services__modal-close')
 
 let activeModal = (modalClick) => {
     modal[modalClick].classList.add('active-modal')
